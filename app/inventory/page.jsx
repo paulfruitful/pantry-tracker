@@ -1,5 +1,6 @@
 import Nav from "../../_components/nav"
 import Hero from "../../_components/Hero"
+import Inventory from "../../_components/Inventory"
 const Page = () => {
   return (
     <div className="grid w-full overflow-hidden" style={{height:'100vh',width:'100vw'}}>
@@ -9,6 +10,11 @@ const Page = () => {
              <span className="text-2xl font-bold ">Pantry 🥗</span>
       </div>
       <Hero/>
+
+      <div className="p-6">
+        <Inventory/>
+
+      </div>
       </div>
     </div>
   )
